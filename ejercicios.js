@@ -91,22 +91,22 @@ for (i=1; i <= 10; i++) {
 
 //  AGREGAR NUMEROS AL ARRAY Y LUEGO ORDENARLOS
 
-let hippie = [];
+let xd = [];
 for (i=0; i <= 12; i++) {
-    hippie[i] = parseInt(prompt("Introduce 6 numeros"));
-    hippie.push();
+    xd[i] = parseInt(prompt("Introduce 6 numeros"));
+    xd.push();
     
 }
 
-console.log(hippie);
-document.write("[" + hippie + "]" + " ");
+console.log(xd);
+document.write("[" + xd + "]" + " ");
 
-hippie.sort(function(a, b) {
+xd.sort(function(a, b) {
     return a - b;
 });
-console.log(hippie)
+console.log(xd)
 
 hippie.reverse();
-document.write( " - " + hippie + " ")
+document.write( " - " + xd + " ")
 
-document.write("Cantidad de elementos: " + hippie.length);
+document.write("Cantidad de elementos: " + xd.length);
